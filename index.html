@@ -10,3 +10,54 @@
     <p> Tres estilos: horizontal, vertical y tipo abanico.</p>
 </body>
 </html>
+
+<header class="site-header">
+  <div class="container nav">
+    <div class="brand">Juegos & Galeria</div>
+    <button class="menu-toggle">≡</button>
+    <nav class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#galeria-clasica">Galería clásica</a>
+      <a href="#galeria-vertical">Galería vertical</a>
+      <a href="#galeria-abanico">Galería abanico</a>
+    </nav>
+  </div>
+</header>
+
+<section id="galeria-clasica" class="section">
+  <div class="container">
+    <h2>Galería clásica (grid fluido)</h2>
+    <div class="grid galeria">
+      <img src="assets fotos/images/j1.jpg" alt="Imagen 1" />
+      <img src="assets fotos/images/j2.jpg" alt="Imagen 2" />
+      <img src="assets fotos/images/j3.jpg" alt="Imagen 3" />
+    </div>
+  </div>
+</section>
+
+<section id="galeria-vertical" class="section alt">
+  <h2>Galería vertical (scroll suave)</h2>
+  <div class="vertical galeria">
+    <img src="assets fotos/images/j3.jpg" />
+    <img src="assets fotos/images/j4.jpg" />
+    <img src="assets fotos/images/j5.jpeg" />
+  </div>
+</section>
+
+<section id="galeria-abanico" class="section">
+  <div class="abanico galeria">
+    <figure class="card"><img src="assets fotos/images/j1.jpg"><figcaption>Abanico 1</figcaption></figure>
+    <figure class="card"><img src="assets fotos/images/j2.jpg"><figcaption>Abanico 2</figcaption></figure>
+  </div>
+</section>
+
+<div id="visor" class="visor">
+    <button id="closeVisor">x</button>
+    <button id="prevVisor"><</button>
+    <img id="visorImg" alt="Imagen ampliada" />
+    <button id="nextVisor">></button>
+</div>
+
+<footer class="site-footer">
+    <p>© <span id="year"></span> Práctica Fotográfica - Bernardo Prado Díaz</p>
+</footer>
