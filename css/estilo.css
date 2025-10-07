@@ -1,0 +1,14 @@
+:root{
+    --maxw: 1200px;
+    --bg: #f6f7fb;
+    --ink: #222;
+    --accent: #2563eb;
+}
+
+body{
+    margin:0;
+    font-family: system-ui, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    text-align:center;
+}
